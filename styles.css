@@ -1,0 +1,56 @@
+/* Simple and Sensitive CSS for Homepage */
+
+/* Reset some default browser styles */
+body, h1, h2, p, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Apply a background color */
+body {
+  background-color: #F0F4F8; /* Milk Blue */
+  color: #003366; /* Dark Blue */
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #003366;
+  color: #F0F4F8;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #F0F4F8;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Main content styles */
+main {
+  padding: 1em;
+}
+
+/* Footer styles */
+footer {
+  background-color: #003366;
+  color: #F0F4F8;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Link styles */
+a {
+  color: #0066CC;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
